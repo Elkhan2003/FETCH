@@ -1,0 +1,19 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#posts{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+.card{
+    margin-bottom: 20px;
+}
+.more-btn,
+.more-btn:hover{
+    background-color: aqua;
+    color: rgb(214, 211, 211);
+    margin-bottom: 20px;
+}
